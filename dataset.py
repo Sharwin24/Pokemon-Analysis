@@ -12,5 +12,6 @@ class PokemonDataSet:
         return self.data[self.data['Name'] == pokemon_name]
 
 
+# ID,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary
 PokeDex = PokemonDataSet('Pokemon.csv')
 # print(PokeDex.get_pokemon('Pikachu'))
